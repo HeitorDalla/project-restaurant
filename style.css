@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* -- Configuração do Rodapé -- */
+
+#containerRodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    background-color: #333;
+    color: white;
+}
+
+section {
+    flex: 1;
+    margin: 14px;
+    text-align: center;
+}
+
+h2 {
+    font: normal bold 20px arial, sans-serif;
+}
+
+p {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
