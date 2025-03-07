@@ -1,3 +1,5 @@
+/* -- Configurações Gerais -- */
+
 * {
     padding: 0;
     margin: 0;
@@ -5,15 +7,41 @@
     box-sizing: border-box;
 }
 
-/* -- Configuração do Rodapé -- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh; /* Vai garantir que o rodapé fique no final da página */
+}
 
-#containerRodape {
+/* -- Configuração de Cabeçalho -- */
+
+#containerCabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 180px;
+    flex-flow: row;
+}
+
+section {
+    border: 1px solid black;
+}
+
+img {
+
+}
+
+
+
+/* -- Configuração do Rodapé -- */
+
+#containerRodape {
     background-color: #333;
     color: white;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
 }
 
 section {
@@ -23,7 +51,7 @@ section {
 }
 
 h2 {
-    font: normal bold 20px arial, sans-serif;
+    font: normal normal 20px arial, sans-serif;
 }
 
 p {
@@ -38,7 +66,7 @@ li {
     margin: 10px;
 }
 
-a {
+.redesSocais {
     color: white;
     text-decoration: none;
     font-size: 16px;
