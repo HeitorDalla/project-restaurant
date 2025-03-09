@@ -56,11 +56,11 @@ html, body {
 }
 
 #menuNavegacao nav ul li a:hover {
-    color: #e63946;
+    color: #f47681;
 }
 
 #contatos button {
-    background-color: #e63946;
+    background-color: #eb2a3a;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -116,14 +116,24 @@ html, body {
     padding: 20px;
 }
 
+#containerRodape h2 {
+    margin-bottom: 10px;
+}
+
+#containerRodape p {
+    margin-bottom: 6px;
+}
+
 .redesSocais {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
 
-#mediaSocial ul {
-    list-style-type: none;
+.icone {
+    font-size: 30px;
+    color: white;
+    margin: 16px 16px 0 0;
 }
 
 a:hover {
