@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* Efeito de rolagem */
+}
+
 html, body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
@@ -31,11 +35,6 @@ html, body {
     width: 100%;
     top: 0;
     z-index: 1;
-}
-
-#containerLogo img {
-    width: 120px;
-    height: auto;
 }
 
 #menuNavegacao nav ul {
