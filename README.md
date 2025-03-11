@@ -1,10 +1,10 @@
-### Restaurante Japonês - README
+# Restaurante Japonês - README
 
-# Visão Geral
+## Visão Geral
 
 Este é um site desenvolvido para um restaurante japonês, projetado para oferecer informações sobre o cardápio, horários de funcionamento, localização e opções de reserva online.
 
-# Funcionalidades
+## Funcionalidades
 
 Exibição do cardápio com imagens e descrição dos pratos
 
@@ -14,12 +14,12 @@ Seção sobre a história do restaurante
 
 Contato e redes sociais
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML, CSS, JavaScript
 - Git e Github
 
-# Estrutura do Projeto
+## Estrutura do Projeto
 
 /restaurante-japones
 │ ── index.html
@@ -27,7 +27,7 @@ Contato e redes sociais
 │ ── script.js
 │── README.md
 
-# Contribuição
+## Contribuição
 
 Adicione o conteudo (add .)
 
@@ -35,6 +35,6 @@ Commit suas mudanças (git commit -m 'Adicionando nova funcionalidade')
 
 Envie para o repositório remoto (git push origin)
 
-# Contato
+## Contato
 
 Para mais informações, entre em contato pelo email heitorvillavilla@gmail.com
