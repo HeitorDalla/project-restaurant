@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap'); /* Para o cardápio */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap'); /* Para o título do cardápio */
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap'); /* Para 'Comidas' e 'bebidas' */
 
 /* -- Configurações Gerais -- */
 
@@ -126,7 +127,7 @@ body {
 
 #texto-comida h2 {
     margin: 20px 0px 10px 20px;
-    font: normal bold 32px arial, sans-serif;
+    font: normal 700 2em "Alef", "sans-serif";
 }
 
 #comidas {
@@ -183,7 +184,7 @@ body {
 
 #texto-bebida h2 {
     margin: 20px 0px 10px 20px;
-    font: normal bold 32px arial, sans-serif;
+    font: normal 700 2em "Alef", "sans-serif";
 }
 
 #bebidas {
