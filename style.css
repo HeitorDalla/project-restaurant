@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* Formatação */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); /* Para todo o site */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -124,6 +124,11 @@ body {
     color: #f4f4f4cd;
 }
 
+#texto-comida h2 {
+    margin: 20px 0px 10px 20px;
+    font: normal bold 32px arial, sans-serif;
+}
+
 #comidas {
     display: flex;
     justify-content: space-between;
@@ -174,6 +179,67 @@ body {
 .comida button:hover {
     background-color: #f75f69;
     box-shadow: 0px 4px 10px rgba(255, 79, 91, 0.557);
+}
+
+#texto-bebida h2 {
+    margin: 20px 0px 10px 20px;
+    font: normal bold 32px arial, sans-serif;
+}
+
+#bebidas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.bebida {
+    flex: 1 1 calc(30% - 20px);
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bebida:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.bebida img { /* Para cada imagem do cardápio */
+    width: 100%; /* Ocupará todo o espaço */
+    height: 200px; /* Limitará a altura da imagem */
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.bebida h2 {
+    padding: 5px;
+}
+
+.bebida button {
+    background-color: #eb2a3a;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    font: normal bold 20px arial, sans-serif;
+    border: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.bebida button:hover {
+    background-color: #f75f69;
+    box-shadow: 0px 4px 10px rgba(255, 79, 91, 0.557);
+}
+
+#pedidos {
+    color: white;
 }
 
 /* -- Configuração do Rodapé -- */
