@@ -3,6 +3,7 @@
 ## Este projeto é um site para um restaurante japonês, proporcionando uma experiência online que inclui o cardápio, pedidos, e outras informações sobre o restaurante. Ele oferece funcionalidades como a exibição de pratos com preços, adição ao carrinho de compras e finalização de pedidos.
 
 ### Funcionalidades
+- Menu: Exibe o menu do site, com links imbutidos.
 - Exibição do cardápio: Pratos com descrição, imagens e preços.
 - Carrinho de Compras: Sistema para adicionar itens ao carrinho e visualizar o total do pedido.
 - Finalização de Pedido: Opção para o cliente finalizar o pedido e visualizar o total.
