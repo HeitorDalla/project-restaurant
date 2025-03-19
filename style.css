@@ -240,7 +240,65 @@ body {
 }
 
 #pedidos {
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#pedidos h2 {
+    font-family: 'Montserrat', sans-serif;
     color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#lista-pedido {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-pedido li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+#lista-pedido li span {
+    font-weight: bold;
+    color: #555;
+}
+
+#total {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#finalizarPedido {
+    background-color: #2e7d32;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#finalizarPedido:hover {
+    background-color: #1c5e27;
 }
 
 /* -- Configuração do Rodapé -- */
