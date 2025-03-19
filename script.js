@@ -1,14 +1,5 @@
 "use strict";
 
-/* Objeto com os links e suas seções */
-let links = {
-    "História": "historia",
-    "Cardápio": "cardapio",
-    "Pedido": "pedidos",
-    "Unidades": "unidades",
-    "Contate-nos": "containerRodape"
-};
-
 let total = 0; // Total do pedido
 const listaPedido = document.querySelector("#lista-pedido");
 const totalElemento = document.querySelector("#total");
@@ -25,17 +16,6 @@ const buttons = document.querySelectorAll(".buttons"); // Peguei todos os button
     buttons.forEach((button) => {
         button.addEventListener("click", (event) => {
             event.preventDefault();
-
-            // Pega o valor do atributo 'data-target' do link clicado
-            const targeId = button.getAttribute("data-target");
-            
-            // Seleciona a seção usando o id que foi obtido
-            const targetSection = document.querySelector(targeId);
-
-            // Se a seção existir, faz a rolagem suave até ela
-            if (targetSection) {
-                targetSection.scrollIntoView({ behavior: "smooth"});
-            }
 
             const divPai = button.parentElement; // Pega o pai do elemento botao
 
@@ -54,6 +34,7 @@ const buttons = document.querySelectorAll(".buttons"); // Peguei todos os button
     })
 });
 
+// Ação para o botao finalizar
 const finalizarPedido = document.querySelector("#finalizarPedido");
 finalizarPedido.addEventListener("click", () => {
     alert("Você finalizou o seu pedido!");
