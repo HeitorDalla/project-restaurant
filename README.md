@@ -1,40 +1,41 @@
-# Restaurante Japonês - README
+### Visão Geral
 
-## Visão Geral
-
-Este é um site desenvolvido para um restaurante japonês, projetado para oferecer informações sobre o cardápio, horários de funcionamento, localização e opções de reserva online.
+# Este projeto é um site para um restaurante japonês, proporcionando uma experiência online que inclui o cardápio, pedidos, e outras informações sobre o restaurante. Ele oferece funcionalidades como a exibição de pratos com preços, adição ao carrinho de compras e finalização de pedidos.
 
 ## Funcionalidades
-
-Exibição do cardápio com imagens e descrição dos pratos
-
-Sistema de reservas online
-
-Seção sobre a história do restaurante
-
-Contato e redes sociais
+- Exibição do cardápio: Pratos com descrição, imagens e preços.
+- Carrinho de Compras: Sistema para adicionar itens ao carrinho e visualizar o total do pedido.
+- Finalização de Pedido: Opção para o cliente finalizar o pedido e visualizar o total.
+- Contatos e Redes Sociais: Informações de contato, como email e telefone, além de links para as redes sociais do restaurante.
 
 ## Tecnologias Utilizadas
-
-- HTML, CSS, JavaScript
-- Git e Github
+HTML: Estruturação do conteúdo do site.
+CSS: Estilo e design visual do site.
+JavaScript: Funcionalidades interativas, como adicionar ao carrinho, calcular total e finalizar pedidos.
+Font Awesome: Ícones para redes sociais.
+Google Fonts: Fontes personalizadas para melhorar a legibilidade e estética.
 
 ## Estrutura do Projeto
-
+bash
+Copiar
 /restaurante-japones
 │ ── index.html
 │ ── style.css
 │ ── script.js
-│── README.md
+│ ── README.md
 
-## Contribuição
 
-Adicione o conteudo (add .)
+Clone o repositório:
 
-Commit suas mudanças (git commit -m 'Adicionando nova funcionalidade')
+git clone https://github.com/seu-usuario/restaurante-japones.git
+Abra o arquivo index.html no navegador.
 
-Envie para o repositório remoto (git push origin)
+Interaja com o site:
 
-## Contato
+Visualize o cardápio.
+Adicione itens ao carrinho.
+Finalize seu pedido.
+Contribuição
 
-Para mais informações, entre em contato pelo email heitorvillavilla@gmail.com
+Contato
+Para mais informações ou dúvidas, entre em contato via email: heitorvillavilla@gmail.com
