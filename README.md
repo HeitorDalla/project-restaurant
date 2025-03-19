@@ -18,7 +18,7 @@
 
 ### Clone o repositório:
 
-git clone https://github.com/seu-usuario/restaurante-japones.git
+git clone https://github.com/HeitorDalla/restaurante-japones.git
 Abra o arquivo index.html no navegador.
 
 ### Interaja com o site:
