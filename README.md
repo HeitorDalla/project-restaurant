@@ -6,7 +6,7 @@ Essse projeto foi desenvolvido seguindo as seguintes tecnologias:
 
 - HTML - Estrutura o layout da página (https://html.com/) 
 - CSS - Estiliza o layout (https://css.com/)
-- JavaScript - Implementa a lógica desde a entrada do usuário até na contagem de tempo faltante (https://www.javascript.com/)
+- JavaScript - Implementa a lógica para adicionar os itens ao carrinho de compra e finalizar a compra (https://www.javascript.com/)
 
 ## Visualização do Projeto
 (https://heitordalla.github.io/project-restaurant/)
